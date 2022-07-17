@@ -38,8 +38,8 @@ header {
   cursor: pointer;
 }
 .button:hover {
-  /* transition: background 0.3s ease-in-out; */
-  background: linear-gradient(135deg, #a060ff 0%, #cb30e3 49.21%, #ffa84e 100%);
+  transition: background 0.3s ease-in-out;
+  background: #172339;
   color: #ffffff;
 }
 /* Header Ends */
@@ -81,12 +81,16 @@ main {
   width: 256px;
   height: 61px;
   background: #172339;
-  border: 1px solid #172339;
+  border: none;
   border-radius: 6px;
   font-size: 18px;
   color: #ffffff;
   font-weight: bold;
   cursor: pointer;
+}
+.main-button:hover {
+  background: linear-gradient(135deg, #a060ff 0%, #cb30e3 49.21%, #ffa84e 100%);
+  transition: background 0.3s ease-in-out;
 }
 .hero-image {
   width: 90vw;
