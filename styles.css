@@ -191,4 +191,29 @@ section {
 /* Section Ends */
 
 /* Footer */
+footer {
+  background-color: #f3ede7;
+  margin-top: -10px;
+
+  height: 420px;
+}
+.footer-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  height: 100%;
+}
+.copyright {
+  font-size: 15px;
+  font-weight: normal;
+  line-height: 32px;
+  letter-spacing: 0.08px;
+  color: #172339;
+}
+.social-icons {
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
+}
 /* Footer Ends */
